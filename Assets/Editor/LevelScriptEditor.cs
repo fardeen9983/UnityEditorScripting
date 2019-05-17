@@ -24,6 +24,7 @@ public class LevelScriptEditor : Editor
         levelScript.experience = EditorGUILayout.IntField("Experience",levelScript.experience);
         //Display level field as read-only
         EditorGUILayout.LabelField("Level", levelScript.Level.ToString());
+         
 
     }
 }
